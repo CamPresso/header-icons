@@ -19,7 +19,7 @@ nav a {
   display: block;
   color: #fff;
   border: 1px solid #a63f38;
-  text-decoration; none;
+  text-decoration: none;
   padding: .5rem .5em;
 }
 
@@ -27,4 +27,36 @@ nav li {
   display: inline-block;
   width: 33.333%;
   text-align: center;
+}
+
+img {
+  width: 40px;
+}
+
+.nav a:hover {
+  background-color: #a63f38;
+}
+
+body {
+  margin: 0;
+}
+
+.top {
+  display: flex;
+  padding: .4rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.nav {
+  font-size: 1.125rem;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  padding: 0;
 }
